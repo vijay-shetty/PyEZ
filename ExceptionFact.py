@@ -4,7 +4,7 @@ from jnpr.junos import Device
 import sys
 from pprint import pprint
 
-dev = Device('10.209.16.236', user='vijay', password='Puppet', gather_facts=False)
+dev = Device('host', user='user', password='pwd')
 try:
     dev.open()
 except Exception as err:
