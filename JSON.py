@@ -2,7 +2,7 @@ import json
 from jnpr.junos import Device
 from pprint import pprint
 
-dev = Device('10.209.1.228', user='regress', password='MaRtInI')
+dev = Device('host', user='user', password='pwd')
 
 dev.open()
 dev.facts['version_info']=dict(dev.facts['version_info'])
