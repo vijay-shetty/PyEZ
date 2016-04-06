@@ -5,7 +5,7 @@ from pprint import pprint
 import sys
 
 
-dev = Device('nms5-mx240-a', user='regress', passwd='MaRtInI')
+dev = Device('host', user='user', password='pwd')
 
 dev.open()
 
