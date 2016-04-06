@@ -3,7 +3,7 @@ import yaml
 from jnpr.junos import Device
 import sys
 
-dev = Device('10.209.16.236', user='regress', password='MaRtInI')
+dev = Device('host', user='user', password='pwd')
 try:
     dev.open()
 except Exception as err:
