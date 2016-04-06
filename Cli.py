@@ -1,6 +1,6 @@
 from jnpr.junos import Device
 
-dev = Device('10.209.16.236', user='regress', password='MaRtInI')
+dev = Device('host', user='user', password='pwd')
 
 dev.open()
 
