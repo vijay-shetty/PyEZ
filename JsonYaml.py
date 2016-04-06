@@ -5,7 +5,7 @@ from jnpr.junos import Device
 from jnpr.junos.exception import ConnectError
 from pprint import pprint
 
-dev = Device('10.209.16.236', user='regress', password='MaRtInI')
+dev = Device('host', user='user', password='pwd')
 
 try:
     dev.open()
