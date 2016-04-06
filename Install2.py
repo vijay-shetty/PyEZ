@@ -27,7 +27,7 @@ def main():
         sys.exit()
 
     try:
-        dev = Device(host=host, user='regress', password='MaRtInI')
+        dev = Device(host=host, user='user', password='pwd')
         dev.open()
     except ConnectError as err:
         logging.error('Cannot connect to device: {0}\n'.format(err))
