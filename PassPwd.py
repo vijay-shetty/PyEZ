@@ -2,9 +2,7 @@ from jnpr.junos import Device
 import sys
 from getpass import getpass
 
-#password = getpass()
-#dev = Device('10.209.16.236', user='regress', password=password)
-dev = Device('10.209.1.228', user='regress')  #nms5-mx240-a
+dev = Device('host', user='user', password='pwd')
 
 #dev = Device('10.209.16.236')
 try:
