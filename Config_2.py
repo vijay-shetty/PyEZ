@@ -2,7 +2,7 @@ from jnpr.junos import Device
 from jnpr.junos.utils.config import Config
 import sys
 
-dev = Device('10.209.1.228', user='regress', password='MaRtInI')
+dev = Device('host', user='user', password='pwd')
 
 try:
     dev.open()
