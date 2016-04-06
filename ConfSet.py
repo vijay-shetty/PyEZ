@@ -3,7 +3,7 @@ from jnpr.junos.utils.config import Config
 from jnpr.junos.utils.sw import SW
 import sys
 
-dev = Device('nms5-mx240-a', user='regress', passwd='MaRtInI')
+dev = Device('host', user='user', password='pwd')
 
 dev.open()
 
