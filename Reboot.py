@@ -2,7 +2,7 @@ from jnpr.junos import Device
 from jnpr.junos.utils.sw import SW
 import sys
 
-dev = Device('******', user='regress', passwd='MaRtInI')
+dev = Device('host', user='user', password='pwd')
 try:
     dev.open()
 except Exception as err:
