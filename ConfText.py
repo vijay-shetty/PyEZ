@@ -2,7 +2,7 @@ from jnpr.junos import Device
 from jnpr.junos.utils.config import Config
 from jnpr.junos.exception import CommitError
 
-dev = Device('nms5-mx240-a', user='regress', password='MaRtInI', gather_facts=False)
+dev = Device('host', user='user', password='pwd')
 
 dev.open()
 
